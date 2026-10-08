@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sharkusextras",
+  "version": "${version}",
+  "name": "Sharkus Extras",
+  "description": "AppleSkin, Health Indicator, Armor Status, Team Tracker, Wortfilter, Hit Color und Effekt-Timer - alles einzeln ein- und ausschaltbar.",
+  "authors": ["Sharkus"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.sharkus.extras.SharkusExtras"] },
+  "mixins": ["sharkusextras.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
